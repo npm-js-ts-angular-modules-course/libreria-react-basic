@@ -1,0 +1,25 @@
+{
+  "name": "@mugan86/react-basic-library",
+  "version": "1.0.0",
+  "description": "Librería sencilla para iniciarse en React",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "npx tsc -p ."
+  },
+  "keywords": [
+    "react-lib",
+    "libreria-react",
+    "npm-course"
+  ],
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.20",
+    "react": "^16.12.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.11.0"
+  }
+}
