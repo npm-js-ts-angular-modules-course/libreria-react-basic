@@ -36,6 +36,7 @@ npm install
 
 ```
 cd lib-react
+npm run build // Para compilar los cambios
 npm link
 ```
 
