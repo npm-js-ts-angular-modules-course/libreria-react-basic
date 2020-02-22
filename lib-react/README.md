@@ -25,9 +25,9 @@ En el siguiente apartado se describirán los usos que podremos darle a los compo
 ```
 #### HelloCC
 ```
-<HelloCC/>                                      // Hola Mundo
-<HelloCC name="Anartz"/>                        // Hola Anartz
-<HelloCC name="Anartz" lastname="Mugika"/>      // Hola Anartz Mugika
+<HelloCC/>                                      // Hola -->> .... desde CC
+<HelloCC name="Anartz"/>                        // Hola Anartz .... desde CC
+<HelloCC name="Anartz" lastname="Mugika"/>      // Hola Anartz Mugika desde CC
 ```
 
 
