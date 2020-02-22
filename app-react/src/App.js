@@ -1,15 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { HelloFC, HelloCC, CustomBox } from '@mugan86/react-basic-library';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <CustomBox content="Anartz" bgColor="blue" width="400px" height="300px"/>
         <p>
           Anartz Mugika Ledo - mugan86@gmail.com.
         </p>
+        <HelloFC name="Anartz"/>
+        <HelloCC name="Holaaaaaa" lastname="hdhdhdhd"/>
         <a
           className="App-link"
           href="https://reactjs.org"
